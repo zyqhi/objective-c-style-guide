@@ -111,6 +111,10 @@ Use `#pragma mark -` to categorize methods in functional groupings and protocol/
 #pragma mark - NSObject
 
 - (NSString *)description {}
+
+#pragma mark - UITableViewDatasource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {}
 ```
 
 ## Spacing
